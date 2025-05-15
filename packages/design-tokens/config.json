@@ -1,0 +1,42 @@
+{  
+  "source": ["tokens/tokens.json"],  
+  "platforms": {  
+    "css": {  
+      "transformGroup": "css",  
+      "buildPath": "build/css/",  
+      "files": [  
+        {  
+          "destination": "variables.css",  
+          "format": "css/variables",  
+          "options": {  
+            "outputReferences": true  
+          }  
+        },  
+        {  
+          "destination": "styles.css",  
+          "format": "css/variables",  
+          "options": {  
+            "outputReferences": true  
+          }  
+        }  
+      ]  
+    },  
+    "js": {  
+      "transformGroup": "js",  
+      "buildPath": "build/js/",  
+      "files": [  
+        {  
+          "destination": "variables.js",  
+          "format": "javascript/es6"  
+        },  
+        {  
+          "destination": "styles.js",  
+          "format": "javascript/es6",  
+          "options": {  
+            "outputReferences": true  
+          }  
+        }  
+      ]  
+    }  
+  }  
+}  
